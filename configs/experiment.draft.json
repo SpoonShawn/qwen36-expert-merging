@@ -1,0 +1,61 @@
+{
+  "status": "draft_not_runnable",
+  "base_model": "Qwen/Qwen3.6-35B-A3B",
+  "base_revision": null,
+  "hardware": null,
+  "dependency_lock": null,
+  "experts": [
+    "code",
+    "tools",
+    "reasoning"
+  ],
+  "training": {
+    "method": null,
+    "target_modules": null,
+    "rank": null,
+    "learning_rate": null,
+    "batch_size": null,
+    "steps": null,
+    "context_length": null,
+    "seed": null
+  },
+  "merge_candidates": [
+    "delta_weighted_average",
+    "ties"
+  ],
+  "selection_split": "independent_development_only",
+  "benchmarks": {
+    "swe_bench_pro_v2_hard": {
+      "revision": null,
+      "split": null,
+      "task_manifest_sha256": null,
+      "evaluator_commit": null,
+      "container_digest": null,
+      "metric": null
+    },
+    "hle": {
+      "revision": null,
+      "split": null,
+      "task_manifest_sha256": null,
+      "evaluator_commit": null,
+      "container_digest": null,
+      "metric": null
+    },
+    "asi_bench": {
+      "revision": null,
+      "split": null,
+      "task_manifest_sha256": null,
+      "evaluator_commit": null,
+      "container_digest": null,
+      "metric": null
+    },
+    "terminal_bench_2": {
+      "revision": null,
+      "split": null,
+      "task_manifest_sha256": null,
+      "evaluator_commit": null,
+      "container_digest": null,
+      "metric": null
+    }
+  }
+}
