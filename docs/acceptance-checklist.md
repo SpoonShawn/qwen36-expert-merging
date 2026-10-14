@@ -2,7 +2,7 @@
 
 所有实验项均未完成；本清单用于跟踪，不表示已有结果。
 
-- [ ] 确认截图与上游要求冲突，记录适用版本。
+- [x] 2026-10-14 用户明确按截图版多专家训练与模型合并要求执行。
 - [x] 创建独立公开 GitHub 仓库：https://github.com/SpoonShawn/qwen36-expert-merging
 - [ ] 完成实验后记录最终提交 commit。
 - [ ] 冻结基座 revision、tokenizer、chat template、依赖版本。
